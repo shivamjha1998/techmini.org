@@ -1,0 +1,82 @@
+html{
+    background-color: #04303d;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+
+body {
+        background:#04303d00;
+        background-image: url(images/falcan.png);
+        background-size: contain ;
+        height: 35rem;
+        background-repeat: no-repeat;
+        background-position: top center;
+}
+.logo
+    {
+    flex: 1;
+    }
+.logoimg{
+    height: 60px;
+    padding-left: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    
+
+.butto{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.card-deck{
+    padding-left: 5%;
+    padding-right: 5%;
+
+} 
+
+.nav-item{
+  font-family: 'Kanit', sans-serif;
+}
+
+h1{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+}
+h5{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2rem;
+}
+p{
+  color: white;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  }
+
+main h1 {
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+
+.card.card-body{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card-text{
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: normal;
+}
+
+
+  

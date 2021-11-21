@@ -1,0 +1,241 @@
+html{
+    background-color: #04303d;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+
+body {
+        background:#04303d00;
+        background-image: url(images/falcan.png);
+        background-size: contain ;
+        height: 35rem;
+        background-repeat: no-repeat;
+        background-position: top center;
+                
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+p{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    }
+
+
+
+.highlights{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    
+} 
+
+.foot{
+    
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding-right: 2.5%;
+    padding-top: 15%;
+    position: relative;
+}
+
+.footsize{
+    width: 20px;
+    padding-bottom: 25px;
+
+}
+
+.topmain{
+    flex: 1;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 225px;
+    
+}
+
+.nav-item{
+  font-family: 'Kanit', sans-serif;
+}
+
+.side{
+    flex: 2;
+    font-family: 'Kanit', sans-serif;
+    text-align: right;
+    margin-right: 13%;
+}
+
+
+.logo
+    {
+    flex: 1;
+    }
+.logoimg{
+    height: 60px;
+    padding-left: 40px;
+}    
+
+nav {
+    flex: 2;
+    text-align: right;
+}
+
+.nav-item{
+    color: white;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: inline-block; 
+    position: relative;
+}
+
+.nav-item :hover{
+    color: #a8dadc;
+    text-decoration: none;
+}
+
+.carousel {
+    width:90%;
+    height:auto;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: auto;
+  }
+  
+ 
+
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  margin-top: 1%;
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:1.5rem;
+  font-family: 'Kanit', sans-serif;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer p{
+    color: slategrey;
+    padding-top: 7px;
+    
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer a
+{
+  color: slategrey;
+  font-family: 'Kanit', sans-serif;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:30%;
+  list-style:none
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons a.youtube:hover
+{
+  background-color:#d11837
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+
+
+
+
+
+
+    
+   
